@@ -1,0 +1,18 @@
+# Spring configuration
+spring:
+ application:
+   name: servicio.cesta
+# HTT Server
+server:
+ port: 2222
+# Discovery Server Access
+eureka:
+ client:
+  serviceUrl:
+   defaultZone: http://localhost:8761/eureka
+ instance:
+  statusPageUrlPath: /infoCatalogo
+  healthCheckUrlPath: /healthCatalogo
+  metadataMap:
+   appOwner: angelfranco
+   description: micro servicio cesta
