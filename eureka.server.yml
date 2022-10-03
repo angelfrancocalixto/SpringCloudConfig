@@ -1,5 +1,7 @@
+# HTTP Server
 server:
  port: 8761
+# Discovery Server Eureka
 eureka:
  client:
   registerWithEureka: false
