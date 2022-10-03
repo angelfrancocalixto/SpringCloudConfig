@@ -1,4 +1,4 @@
-# HTT Server
+# HTTP Server
 server:
  port: 1111
 # Discovery Server Access
