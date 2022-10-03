@@ -1,8 +1,4 @@
-# Spring configuration
-spring:
- application:
-   name: servicio.cesta
-# HTT Server
+# HTTP Server
 server:
  port: 2222
 # Discovery Server Access
